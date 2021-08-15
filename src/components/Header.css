@@ -1,0 +1,18 @@
+.as_logo img {
+  width: 280px;
+}
+
+@media (max-width: 820px) {
+  .as_logo img {
+    width: 200px;
+  }
+}
+
+.as_cart_wrapper {
+  cursor: pointer;
+  user-select:none;
+}
+
+.nav-blog, .nav-shop, .nav-pages {
+  display: none !important;
+}

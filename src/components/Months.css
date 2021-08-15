@@ -1,0 +1,7 @@
+.as_zodiac_sign_wrapper {
+  background-image: url('../assets/images/bg/months-bg.jpg')
+}
+
+.as_sign_img img {
+  width: 550px;
+}

@@ -1,0 +1,11 @@
+.as_newsletter_wrapper {
+  display: none;
+}
+
+.as_footer_inner {
+  border-top: 1px solid rgb(255 255 255 / 10%);
+}
+
+.as_footer_logo img {
+  width: 260px;
+}

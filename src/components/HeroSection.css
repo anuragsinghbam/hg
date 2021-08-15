@@ -1,0 +1,7 @@
+.as_banner_wrapper {
+  background-image: url('../assets/images/bg/main-section-bg.jpg');
+}
+
+.as_banner_img img {
+  width: 550px;
+}

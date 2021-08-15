@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Loader from './components/Loader'
+import Header from './components/Header'
+import HeroSection from './components/HeroSection'
+import KnowEvents from './components/KnowEvents'
+import MostPopularEvents from './components/MostPopularEvents'
+import Months from './components/Months'
+import BookAppointment from './components/BookAppointment'
+import Testimonials from './components/Testimonials'
+import WhyUs from './components/WhyUs'
+import RecentEvents from './components/RecentEvents'
+import Footer from './components/Footer'
+import Copyright from './components/Copyright'
+
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Loader />
+      <div className='as_main_wrapper'>
+        <Header />
+        <HeroSection />
+        <KnowEvents />
+        <MostPopularEvents />
+        <Months />
+        <BookAppointment />
+        <Testimonials />
+        <WhyUs />
+        <RecentEvents />
+        <Footer />
+        <Copyright />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
